@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    color: #ffcccc;
+}
+
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+/* About Delivery Section */
+.about-delivery {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.about-delivery h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-delivery p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-delivery ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-delivery ul li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Popular Cuisines Section */
+.popular-cuisines {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.popular-cuisines h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cuisine-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cuisine-item {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cuisine-item:hover {
+    background-color: #ff1a1a;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
